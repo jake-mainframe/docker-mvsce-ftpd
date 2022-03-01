@@ -32,10 +32,10 @@ This is the docker container for the MVS/CE mainframe with vulnerable FTPD serve
 
 ## Build and run
 
-docker build --tag "mainframed767/mvsce:latest" .
-sudo docker run --rm -it -v /home/jake/docker-mvsce/printers:/home/docker/MVSCE/printers  --name=mvsce mainframed767/mvsce
+docker build --tag "mainframed767/mvsce:latest" .  
+sudo docker run --rm -it -v /home/jake/docker-mvsce/printers:/home/docker/MVSCE/printers  --name=mvsce mainframed767/mvsce  
 
 ## Notes
 
-FTPD proc outputs SYSUDUMP to printers/prt00e.txt (SYSOUT=A) 
-Every FTPD crash requires a restart due to it not giving up the port 
+FTPD proc outputs SYSUDUMP to printers/prt00e.txt (SYSOUT=A)   
+Every FTPD crash requires a restart due to it not giving up the port   
