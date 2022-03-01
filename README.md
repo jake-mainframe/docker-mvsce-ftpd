@@ -37,5 +37,5 @@ sudo docker run --rm -it -v /home/jake/docker-mvsce/printers:/home/docker/MVSCE/
 
 ## Notes
 
-FTPD proc outputs SYSUDUMP to printers/prt00e.txt (SYSOUT=A)
+FTPD proc outputs SYSUDUMP to printers/prt00e.txt (SYSOUT=A) 
 Every FTPD crash requires a restart due to it not giving up the port 
