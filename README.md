@@ -32,8 +32,8 @@ This is the docker container for the MVS/CE mainframe with vulnerable FTPD serve
 
 ## Build and run
 
-docker build --tag "mainframed767/mvsce:latest" .  
-sudo docker run --rm -it -v /home/jake/docker-mvsce/printers:/home/docker/MVSCE/printers  --name=mvsce mainframed767/mvsce  
+docker build --tag "jakemainframe/mvsceftpd:latest" .  
+sudo docker run --rm -it -v /home/jake/docker-mvsce/printers:/home/docker/MVSCE/printers  --name=mvsce jakemainframe/mvsceftpd  
 
 ## Cause a crash  
 
